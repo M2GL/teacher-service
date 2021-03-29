@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1")
 public class TeacherController {
+	
 	  @GetMapping("/teachers")
-	  public ResponseEntity getAll() {
+	  public ResponseEntity  getAll() {
 	       
 
 	        if (true) {
